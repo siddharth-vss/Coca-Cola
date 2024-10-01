@@ -1034,3 +1034,20 @@ const lineEffect = () => {
     });
 };
 lineEffect();
+
+
+
+
+function ig(){
+  const randomNumber = Math.floor((Math.random()*10));
+  // alert(randomNumber);
+  if(randomNumber > 5){
+    window.open("https://www.instagram.com/crezy_sparrow/");
+  }else{
+    window.open("https://www.instagram.com/sidd_vadodariya/");
+  }
+}
+
+const insta = document.getElementById("ig");
+
+insta.addEventListener("click",ig);
